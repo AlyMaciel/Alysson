@@ -1,26 +1,64 @@
-h2{
-  color:blue;
-  font-weight: bold;
-  letter-spacing: 1px;
-
-}
 
 #container{
 
-  background-color:yellow;
+  background-color:#FF0000;
   margin-left:20%;
   margin-right:20%;
   height:600px;
   font-family:'Calibri', 'Arial', sans-serif;
 }
 
-ul{
-
-  color:red;
-  font-family: "verdana",serif;
+nav{
+    background-color: #1b1a1a;
+    padding: 0.02% 0 0.02% 0;
+    border-radius: 15px;
 }
 
-h1{
+#menu-vert li{
+  display: inline;
+  padding: 0 4.5% 0 4.5%;
+}
 
-  color:blue
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "Tahoma",serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 2s;
+  padding: 2%;
+}
+
+
+
+.tit-pag-init{
+  color:white;
+  position: absolute;
+  right: 44.5%;
+}
+
+.img-logo-init{
+  position: relative;
+  top: 10%;
+  width: 10%;
+}
+
+.img-container{
+  position: relative;
+  top: 10%;
+  left: 31%;
+}
+
+/* PSEUDO CLASSES */
+#menu-vert li a:VISITED{
+  color:white;
+}
+
+#menu-vert li a:LINK{
+  color:white;
+}
+
+#menu-vert li a:HOVER{
+  color: #1b1a1a;
+  background-color:white;
 }
